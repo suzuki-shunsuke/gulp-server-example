@@ -1,2 +1,17 @@
 # gulp-server-example
-gulpで簡易的なHTTPサーバを用意するサンプル
+
+The sample application which runs on a simple HTTP Server using Gulp.
+
+## Setup
+
+```
+$ npm i
+```
+
+## Run
+
+```
+$ npm start
+```
+
+Access to http://localhost:3000

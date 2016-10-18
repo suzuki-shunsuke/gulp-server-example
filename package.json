@@ -1,0 +1,29 @@
+{
+  "name": "gulp-server-example",
+  "version": "1.0.0",
+  "description": "The sample application which runs on a simple HTTP Server using Gulp.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "start": "npm run gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzuki-shunsuke/gulp-server-example.git"
+  },
+  "author": "Suzuki Shunsuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suzuki-shunsuke/gulp-server-example/issues"
+  },
+  "homepage": "https://github.com/suzuki-shunsuke/gulp-server-example#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-connect": "^5.0.0"
+  }
+}
